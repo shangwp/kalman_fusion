@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="opencv_test" name="aruco" type="aruco"/>
+    <node pkg="opencv_test" name="uwb" type="uwb.py"/>
+    <node pkg="opencv_test" name="sensor" type="sensor" output="screen"/>
+    <node pkg="opencv_test" name="task" type="task" />
+    <node pkg="opencv_test" name="control" type="control" />
+</launch>
